@@ -7,7 +7,9 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    background-color: #fafafa
+}
 html{
     font-family: 'Montserrat', sans-serif;
 }
@@ -23,21 +25,332 @@ nav{
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
+nav h2{
+    position: absolute;
+    top: 3rem;
+    font-weight: 550;
+    font-size: 1.3rem;
+    padding: 0rem 5rem;
+}
 nav .details{
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    gap: 3rem;
+    gap: 2rem;
     position: absolute;
     top: 3rem;
     left: 2rem;
-    padding: 0rem 18rem;
+    padding: 0rem 15rem;
+    font-size: 14px;
 }
-nav p{
+nav .user-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
     position: absolute;
     top: 3rem;
-    font-weight: 500;
-    font-size: 1.3rem;
-    padding: 0rem 2rem;
+    right: 2rem;
 }
+.user-info p{
+    font-weight: 500;
+    font-size: 14px;
+}
+.user-info button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em; 
+    padding: 0px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #23A6F0; 
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button ion-icon{
+    width: 20px;
+    color: white;
+    /* --ionicon-stroke-width: 16px; */
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.title h1{
+    font-size: 3rem;
+}
+.paragraph{
+    margin-top: 1.5rem;
+}
+.paragraph p{
+    font-size: 1rem;
+}
+.paragraph p + p{
+    text-indent: 3.5rem;
+}
+.title-buttons{
+    padding: 2rem 5rem;
+    
+}
+.title-buttons button{
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    border: white solid 1px;
+    background-color: #23A6F0;
+    color: white;
+    font-weight: 600;
+}
+.title-buttons button + button{
+    background-color: transparent;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+.card{
+    padding: 1rem 2rem;
+    position: relative;
+    bottom: 4rem;
+    background-color: white;
+    width: 300px;
+}
+.card .image{
+    color: #23A6F0;
+}
+.card h2{
+    font-size: 20px;
+}
+.card p{
+    color: gray;
+    font-size: 14px;
+}
+#card3{
+    background-color: #23A6F0;
+}
+#card3 h2{
+    color: white;
+}
+#card3 p{
+    color: white;
+}
+ion-icon {
+    font-size: 64px;
+    color: white;
+}
+.description{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 100px;
+    background-color: white;
+}
+.desc{
+    width: 250px;
+    text-align: center;
+    margin: 5rem 0rem 5rem 0rem;
+}
+.desc ion-icon{
+    font-size: 40px;
+    color: #23A6F0;
+}
+.desc h2{
+    margin-top: 0.5rem;
+    font-size: 15px;
+}
+.desc p{
+    font-size: 14px;
+    color: grey;
+    margin-top: 0.5rem;
+}
+.introduction{
+    text-align: center;
+}
+.introduction h2{
+    font-size: 30px;
+}
+.introduction p{
+    margin-top: 0.5rem;
+    color: grey;
+    font-size: 15px;
+}
+.review-cards{
+    display: flex;
+    padding: 4rem 14rem;
+    gap: 3rem;
+}
+.review-card{
+    background-color: white;
+    text-align: center;
+    padding: 3rem 2rem;
+    border: #dedede solid 1px;
+    border-radius: 7px;
+}
+.review-card .profile{
+    width: 150px;
+}
+.review-card p{
+    color: grey;
+    font-size: 13px;
+    margin-top: 1rem;
+}
+.star{
+    margin-top: 1rem;
+}
+.star ion-icon{
+    color: #f3cd03;
+    font-size: 18px;
+}
+.sponsors{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 7rem;
+    gap: 5rem;
+}
+.sponsors img{
+    width: 70px;
+    height: 60px;
+}
+.subscription{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20rem;
+    height: 100px;
+    margin: 2rem 5rem 4rem 5rem;
+    padding: 1rem 1rem;
+    background: linear-gradient(to right, #0e4488, #d21589);
+}
+.subscription h2{
+    color: white;
+    font-size: 18px;
+}
+.email{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 22rem;
+    border: white solid 1px;
+    border-radius: 5px;
+    width: 50%;
+    height: 40px;
+    background: linear-gradient(to right, white 80%, #23A6F0 20%) right;
+}
+.email p{
+    color: grey;
+    font-size: 13px;
+}
+.email p + p{
+    color: white;
+}
+.container{
+    text-align: center;
+}
+.container h2{
+    font-size: 30px;
+}
+.container p{
+    margin-top: 0.5rem;
+    color: grey;
+    font-size: 15px;
+}
+.pricing{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.1rem;
+    margin-top: 2rem;  
+}
+.price{
+    padding: 2rem 2rem;
+    
+    text-align: center;
+    border: #23A6F0 solid 1px;
+    border-radius: 10px;
+}
+#standard{
+    background-color: #252b42;
+    padding: 2rem;
+    /* align-items: flex-start; */
+    transform: translateY(-20px);
+    z-index: 1;
+}
+#standard h2{
+    color: white;
+}
+#perks p{
+    color: white;
+}
+.price h2{
+    font-size: 20px;
+    color: #252b42;
+}
+.price p{
+    color: #969696;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 1.5rem;
+}
+.cash{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    margin-top: 1rem;
+}
+.cash p{
+    color: #23A6F0;
+    font-size: 40px;
+    margin: 0;
+}
+.amount p{
+    font-size: 14px;
+    margin: 0;
+}
+.amount p + p{
+    font-weight: 500;
+}
+.perks{
+    margin-top: 1.5rem;
+}
+.perks p{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    color: #252b42;
+    font-size: 14px;
+    margin: 0.5rem 0;
+}
+.perks1 p{
+    align-items: center;
+    text-align: center;
+}
+.perks1 ion-icon{
+    font-size: 30px;
+    color: #2dc071; 
+}
+.perks2 ion-icon{
+    font-size: 30px;
+    color: #bdbdbd;
+}
+.price button{
+    color: white;
+    background-color: #23A6F0;
+    border: none;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+}
+
