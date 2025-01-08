@@ -598,7 +598,7 @@ ion-icon {
         align-items: center;
     }
     .desc{
-        width: 100px;
+        width: 70px;
     }
 
     .price {
@@ -606,6 +606,7 @@ ion-icon {
         padding: 1rem;
     }
     .review-cards {
+        align-items: center;
         flex-direction: row;
         flex-wrap: wrap;
     }
