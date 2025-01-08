@@ -62,8 +62,8 @@ nav .user-info{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.5em; 
-    padding: 0px 10px;
+    gap: 0.5rem; 
+    padding: 0rem 0.5rem;
     font-size: 14px;
     font-weight: bold;
     color: white;
@@ -573,12 +573,18 @@ ion-icon {
     }
 
     nav h2 {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
 
     nav .details {
-        font-size: 12px;
+        flex-direction: column;
+        padding: 0rem 10rem;
+        font-size: 10px;
     }
+    .user-info button{
+        flex-direction: row;
+    }
+    u
 
     .title h1 {
         font-size: 1.5rem;
