@@ -592,10 +592,22 @@ ion-icon {
     .cards {
         flex-direction: column;
     }
+    .description {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .desc{
+        width: 100px;
+    }
 
     .price {
         width: 100%;
         padding: 1rem;
+    }
+    .review-cards {
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .footer {
