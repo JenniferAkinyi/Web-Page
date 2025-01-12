@@ -665,7 +665,7 @@ ion-icon {
     .cards {
         flex-direction: column;
         gap: 1rem;
-        padding: 1rem 3.5rem;
+        padding: 1rem 0.3rem;
     }
     .card{
         bottom: 0.2rem;
